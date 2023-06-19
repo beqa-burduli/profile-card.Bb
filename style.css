@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.absolut-box {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-color: hsl(185, 75%, 39%);
+  z-index: 100;
+}
+.top-image {
+  position: absolute;
+  background: url(images/bg-pattern-top.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 978px;
+  width: 978px;
+  top:-536px ;
+  left: -520px;
+}
+.bottom-image {
+  position: absolute;
+  background: url(images/bg-pattern-bottom.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 978px;
+  width: 978px;
+  bottom:-536px ;
+  right: -520px;
+}
+
+
+.profil-card-box {
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+ background-color: white;
+ z-index: 200;
+}
+
+.image-box{
+height: 40%;
+position: relative;
+}
+.profile-picture {
+  border-radius: 50px;
+  border: solid 5px white ;
+  width: 100px;
+ 
+}
+
+.profile-box{
+  position: absolute;
+  left: 37%;
+  bottom: -60px;
+  
+}
+.background-image{
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.description {
+  height: 60%;
+ background-size: cover;
+}
+.description span {
+  color:hsl(227, 10%, 46%) ;
+}
+
+.title{
+ font-weight: 700;
+ font-size: 18px;
+ margin-top: 4rem;
+ text-align: center;
+
+}
+.origines {
+  text-align: center;
+  margin: 1rem 0;
+  color :hsl(227, 10%, 46%);
+  font-size: 14px;
+}
+hr{
+ background-color: hsl(0, 0%, 85%);
+ margin: 1.5rem 0;
+}
+
+.weaver-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+
+}
+.weaver-box div {
+  font-weight: 700;
+  font-size: 18px;
+}
+.weaver-box p{
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  color:hsl(227, 10%, 46%) ;
+  text-align: center;
+  letter-spacing: 1px;
+}
